@@ -18,6 +18,7 @@ export class AppComponent {
   nbEssais=0;
   resultat="";
   classeResultat="";
+  action=false;
 
   constructor(){
     this.valeurADeviner=0;
@@ -27,6 +28,7 @@ export class AppComponent {
   {
     this.valeurADeviner = Math.floor(1 + Math.random()*1000);
     console.log("Nombre à deviner:" + this.valeurADeviner);
+    this.action = true;
   }
  
   verifier()

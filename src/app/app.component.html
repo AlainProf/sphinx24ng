@@ -8,7 +8,7 @@
     <article class="col-3">
       <h3>Votre essai:</h3>
       <input id="essai" [(ngModel)]="essaiCourant"> 
-      <button (click)="verifier()">Soumettre</button><br>
+      <button *ngIf="action" (click)="verifier()">Soumettre</button><br>
       <button (click)="demarrer()">Démarrer</button>
     </article>
     
