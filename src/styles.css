@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+.fonce{
+    background-color:black;
+    color:rgb(21, 227, 59);
+  }
+
+.tropHaut
+{
+  background-color:violet;
+  color:black;
+}  
+
+.tropBas
+{
+  background-color:red;
+  color:rgb(21, 227, 59);
+}  
+
+.succes
+{
+  background-color:green;
+  color:yellow;
+  font-size: 48px;
+}  
